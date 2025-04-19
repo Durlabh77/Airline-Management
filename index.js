@@ -132,8 +132,8 @@ app.post('/submit-form', async (req, res) => {
       'https://test.api.amadeus.com/v1/security/oauth2/token',
       new URLSearchParams({
         grant_type: 'client_credentials',
-        client_id: 'aQrCVg3jDQwKqbwPADAS75DgzwjRlbCk',
-        client_secret: 'GajFZb5zrw8htTSn',
+        client_id: 'JFzUtma04oH8AHOCi727J79vHRkT0swx',
+        client_secret: 'u5JEYfpTDDAfwWWQ',
       }).toString(),
       {
         headers: {
